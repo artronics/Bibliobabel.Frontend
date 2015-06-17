@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="healthyGulpAngularApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="healthyGulpAngularApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="healthyGulpAngularApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="bibliobabel" class="no-js">
+ <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <!--modernizr here-->
+    @if (HttpContext.Current.IsDebuggingEnabled)
+    {
+    <!-- bower:css -->
+    <!-- endinject -->
+    }
+    else
+    {
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/united/bootstrap.min.css">
+    }
+    <!-- inject:css -->
+    <!-- endinject -->
+
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    @if (HttpContext.Current.IsDebuggingEnabled)
+    {
+    <!-- bower:js -->
+    <!-- endinject -->
+    }
+    else
+    {
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/united/bootstrap.min.css">
+    }
+    <!-- inject:js -->
+    <!-- endinject -->
+
+
+
+
+</body>
+</html>
+
